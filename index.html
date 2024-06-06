@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -14,50 +15,50 @@
     </header>
     <main>
       <section class ="card" id="html-section">
-        <h2>HTML: BRACKETS REMOVED CAUSE SYNTAX</h2>
+        <h2>HTML</h2>
         <ul>
           <li>`&lt;!--ampersandlt;/ampersandgt; comment out and how to post code wihtout syntax fnct--&gt;</li><br><br>
 
           <li>HTML elements are usually composed of an opening tag and a closing
             tag represented with angle brackets (< >)</li>
-          <li>ele> /ele> closing tag</li><br>
-          <li>The br> element creates a line of empty space, or a line break, 
+          <li>&lt;ele&gt; &lt;/ele&gt; closing tag</li><br>
+          <li>The &lt;br&gt; element creates a line of empty space, or a line break, 
             between two blocks of content.</li>
             <br>
           <li>COMMENT OUT: &lt;!-- --&gt; </li><br>
-          <li>The head> element contains information, or metadata, that helps 
+          <li>The &lt;head&gt; element contains information, or metadata, that helps 
             the browser to render the page correctly. Elements
             included within the head> are not visible when a user looks at a webpage.</li><br>
             <br>
-            <li>The body> element contains the content that is shown to the user. All the elements 
+            <li>The &lt;body&gt; element contains the content that is shown to the user. All the elements 
               that we want the user to see and interact with must be placed inside this element.</li>
             <br>
           <li>HTML ELEMENTS:<br>
-            The style> element defines the CSS styles associated with a website.
+            The &lt;style&gt; element defines the CSS styles associated with a website.
             <br>
-            The base> element defines the base URL for a webpage.
+            The &lt;base&gt; element defines the base URL for a webpage.
             <br>
-            The link> element connects an external resource to the HTML document.
+            The &lt;link&gt; element connects an external resource to the HTML document.
             <br>
-            The meta> element defines metadata such as the character set, description, 
+            The &lt;meta&gt; element defines metadata such as the character set, description, 
                 keywords, author, and viewport.<br></li>
                 <br>
             <li>IMAGE: 
               <br>img example:
-              img
+              &lt;img
                   src=https://static.fullstack-bootcamp.com/prework/module-03/lesson-01/cute-pandas-02.jpg"
                   alt=Cute Pandas"
                   width=520
                   height=346
-                />
-                <br><p>The `alt` attribute contains a text string that 
+                /&gt;
+                <br>The `alt` attribute contains a text string that 
                   describes the appearance and functionality of the image
                   The alt text is important for screen readers and other
                   assistive technologies. Alt text can also improve 
-                  search engine rankings for your website.</p></li>
-            <li>HEADER: h1-6 (font sizes?) /h</li><br>
-            <li>LIST:ul> /ul> li /li<br>
-            The ul>, ol>, and li> elements represent: <br> 
+                  search engine rankings for your website.</li><br>
+            <li>HEADER: &lt;h1-6 (font sizes?) /h&gt;</li><br>
+            <li>LIST:&lt;ul&gt; &lt;/ul&gt; &lt;li&gt; &lt;/li&gt;<br>
+            The &lt;ul&gt;, &lt;ol&gt;, and &lt;li&gt; elements represent: <br> 
               unordered lists, ordered lists, and list items.</li>
             <br>
             <li>META-RELATED</li>
@@ -66,23 +67,35 @@
             <br>
             
             <br>
-            <li>p> paragraph /p></li>
+            <li>&lt;p&gt; paragraph &lt;/p&gt;</li>
             <br>
-            <li>hyperlink: the a> element (which stands for anchor) creates links 
+            <li>hyperlink: the &lt;a&gt; element (which stands for anchor) creates links 
                 to the same webpage or other webpages. <br>
                 The href attribute points to the URL for the link: <br>
-                a> href="https://nationalzoo.si.edu/animals/giant-panda">More About Giant Pandas /a></li>
+                &lt;a&gt; href="https://nationalzoo.si.edu/animals/giant-panda">More About Giant Pandas &lt;/a&gt;</li>
             <br>
 
-            <li>!DOCTYPE> is not case-sensitive because it is a declaration.
+            <li>&lt;DOCTYPE&gt; is not case-sensitive because it is a declaration.
                 Declarations are not case-sensitive; HTML elements are case-sensitive.</li>
             <br>
             <li>HTML attributes are always defined in the beginning element, 
               never the closing element.</li>
             <br>
-            <li>the title> element defines the title for a webpage. This element is required 
+            <li>the &lt;title&gt; element defines the title for a webpage. This element is required 
               and is extremely important for Search Engine Optimization (SEO).</li>
             <br>
+            </li>
+            <li>&lt;link rel="stylesheet" href="./assets/style.css"&gt;<br>
+              &lt;link&gt; element creates the connection to the external file.<br>
+             &lt;rel&gt; attribute specifies the relationship between the current document and the linked 
+              document resource.<br>
+              &lt;href&gt; attribute specifies the location (URL) of the external resource.<br>
+              The &lt;href&gt; attribute is using a relative path.<br>
+              This means the location is derived from the current location (in this case, index.html).<br>
+              To locate the style sheet from the current location, we must look in the assets folder, 
+              hence assets/style.css.<br><br>
+              <li>A margin indicates how much space we want around the outside of an element.</li><br>
+              <li>A padding indicates how much space we want around the content inside an element.</li><br>
             </li>
         </ul>
       </section> 
@@ -96,10 +109,10 @@
         <ls>The checkout command is to move the working branch to a new branch.
         The -b flag creates a new branch.</ls>
         
-        <ls><p>The feature/starter-code is the name of the new branch.<br>We have added the prefix, 
+        <ls>The feature/starter-code is the name of the new branch.<br>We have added the prefix, 
           feature, to indicate that it is a feature.<br>It is good practice to name the 
           branches for the feature that will be developed by them to help indicate the 
-          purpose of each branch.</p></ls>
+          purpose of each branch.</ls>
         
         <ls>The add command adds modifications in the current working branch to the staging area.<br>
            The -A flag indicates that we want to add all changes.</ls><br>
@@ -118,13 +131,96 @@
       </section>
 
       <section class ="card" id="css-section">
-        <h2>CSS:</h2>
-        
-        <ls></ls>
+        <h2>CSS:</h2><br>
+        <ul>  
+          <ls>CSS = Cascading Style Sheets</ls>
+
+            <ls>inline CSS</ls><br>
+
+            &lt;h1 style="color:red;">Prework Study Guide&lt;/h1><br>
+
+            <ls>a single change to the CSS rule will apply to all tagged page elements.</ls><br><br>
+
+          <ls>The following code shows what an internal CSS style sheet looks like:</ls><br>
+            &lt;head><br>
+            &lt;style><br>
+              h1 {<br>
+                color: red;<br>
+              }<br>
+              &lt;/style><br>
+              &lt;/head><br>
+              <br>
+            <ls>The preceding CSS states that all &lt;h1> elements on the webpage will be red.</ls><br><br>
+
+            <ls>external CSS style sheet. This is preferred in most cases because it allows 
+            developers to keep all their CSS rules in a separate file, which makes design changes easier.</ls><br><br>
+
+            <ls>When using an external style sheet, we link the file using a &lt;link> element placed in the HTML's &lt;head>,
+            as shown in the following code:</ls><br>
+            &lt;head>
+            &lt;link rel="stylesheet" href="./assets/style.css" />
+            &lt;/head>
+            <br><br>
+            <ls>Separation of concerns</ls><br><br>
+
+          <ls>A margin property indicates how much space we want around the outside of an element.</ls><br><br>
+
+          <ls>The padding property adds space around the content inside an element</ls><br><br>
+
+          <ls>When you increase padding, you are actually making the entire element bigger! That is because the 
+            padding, while transparent, is located inside the element, whereas the margin is the transparent buffer 
+            outside an element.</ls><br>
+
+            <ls>CSS box model: 310-box-model.png</ls><br>
+
+            <ls>Sometimes, we want to apply a rule to all the elements visible on the page. 
+            To do that, we use a special wild card symbol, or *<br>
+            * {<br>
+                margin: 0;<br>
+                padding: 0;<br>
+            }<br></ls>
+          <ls><br><br>
+            header,<br>
+            footer {<br>
+                width: 100%;<br>
+                height: 120px;<br>
+                background-color: blue;<br>
+                color: white;<br>
+            }</ls><br><br>
+
+          <ls>Notice that in the preceding rule, we combined two selectors into a single CSS rule with a comma,
+            allowing the declarations to affect both selectors.</ls><br><br>
+
+          <ls>Do Not Repeat Yourself (DRY) code.</ls><br><br>
+            
+          <ls>.card {<br>
+              width: 80%;<br>
+              margin: 40px auto;<br>
+              border: 5px solid gray;<br>
+              box-shadow: 5px 10px #888888;<br>
+            }<br><br>
+          </ls>
+          <ls>The period preceding card designates this as a class selector.<br>
+            Any HTML element assigned to the class,
+            card, will gain these property assignments from the CSS.</ls><br>
+            <br>
+          <ls>The first declaration addresses the width of the element at 80% of the available width.</ls><br>
+          <br>
+          <ls>The margin property assigns 40px to the top and bottom, and the auto value to the left and right.</ls><br>
+          <br>
+          <ls>The border property assigns a border with a width of 5px that is solid and gray.</ls><br>
+          <br>
+          <ls>The box-shadow CSS property adds shadow effects around an element's frame.</ls><br>
+          <br>
+          <ls>You can set multiple effects separated by commas.</ls><br>
+          <br>
+          <ls>We’ve used an HTML hexadecimal code to define the color.</ls><br>
+      </ul>
       </section>
 
       <section class ="card" id="javascrispt-section">
         <h2>JS:</h2>
+        <ul>
         <ls>JS PLAINTEXT/PSUEDOCODE:</ls><br><br>
         <ls>//Sequence:<br>
           //1. Event 1: Put away plates:<br>
@@ -134,6 +230,7 @@
           //                 stack it on the bottom shelf<br>
           //               }<br>
           //2. Event 2: Put away bowls:</ls><br>
+        </ul>
       </section>
 
     </main>
